@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{0f8718ec-c0cf-4fb4-af93-aa0f143ec39d}</ProjectGuid>
-    <RootNamespace>LecomteIACpp</RootNamespace>
+    <RootNamespace>GOAP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>GOAP</ProjectName>
   </PropertyGroup>

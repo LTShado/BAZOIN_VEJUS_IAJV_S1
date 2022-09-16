@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Action">
+      <UniqueIdentifier>{bdd680dd-76fa-4c27-8e3c-493258cca274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Prerequi">
+      <UniqueIdentifier>{98231889-1c08-48e6-91ba-db598e746ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Action">
+      <UniqueIdentifier>{0325999c-f6d7-44bb-8b57-cfa21acf1c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Prerequi">
+      <UniqueIdentifier>{a61211f2-f177-434f-8705-7440e74255e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LecomteIACpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="AttaqueAerienne.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="AttaqueBaisser.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="AttaquerDebout.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Baisser.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="coupSpecial.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauter.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="redescendre.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="relever.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="prerequis.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="EtreEnLair.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="EtreDebout.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="EtreAccroupi.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="ATaper3Foix.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="VieDeLaTete.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="VieDuTorse.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="VieDesJambes.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="VieManequin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Rules.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AttaqueAerienne.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AttaqueBaisser.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AttaquerDebout.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Baisser.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="coupSpecial.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauter.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="relever.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="redescendre.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="EtreAccroupi.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="EtreDebout.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="EtreEnLair.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="prerequis.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="ATaper3Foix.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="VieDeLaTete.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="VieDuTorse.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="VieDesJambes.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="VieManequin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LecomteIACpp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

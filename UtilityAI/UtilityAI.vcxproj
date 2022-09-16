@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cf355f66-283b-41ae-b1ce-d94537ec8546}</ProjectGuid>
-    <RootNamespace>BAZOINVEJUSIAJVS1</RootNamespace>
+    <ProjectGuid>{d4460ab6-16c0-4f9f-b137-66a7d483dfb5}</ProjectGuid>
+    <RootNamespace>UtilityAI</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,7 +140,51 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BAZOIN_VEJUS_IAJV_S1.cpp" />
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Attack.cpp" />
+    <ClCompile Include="AttackSpe.cpp" />
+    <ClCompile Include="AttackSpeEffect.hpp" />
+    <ClCompile Include="Buff.cpp" />
+    <ClCompile Include="BuffEffect.hpp" />
+    <ClCompile Include="Debuff.cpp" />
+    <ClCompile Include="Defense.cpp" />
+    <ClCompile Include="Fight.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="HeaderActions.hpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Turn.cpp" />
+    <ClCompile Include="UtilityAI.cpp" />
+    <ClCompile Include="WhoStart.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Rules.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.hpp" />
+    <ClInclude Include="AI.hpp" />
+    <ClInclude Include="Attack.hpp" />
+    <ClInclude Include="AttackEffect.hpp" />
+    <ClInclude Include="AttackRequirement.hpp" />
+    <ClInclude Include="AttackSpe.hpp" />
+    <ClInclude Include="Buff.hpp" />
+    <ClInclude Include="BuffRequirement.hpp" />
+    <ClInclude Include="Debuff.hpp" />
+    <ClInclude Include="DebuffEffect.hpp" />
+    <ClInclude Include="DebuffRequirement.hpp" />
+    <ClInclude Include="DefenseEffect.hpp" />
+    <ClInclude Include="Defense.hpp" />
+    <ClInclude Include="DefenseRequirement.hpp" />
+    <ClInclude Include="Effect.hpp" />
+    <ClInclude Include="AttackSpeRequirement.hpp" />
+    <ClInclude Include="Fight.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="HeaderEffect.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Requirement.hpp" />
+    <ClInclude Include="Turn.h" />
+    <ClInclude Include="UtilityAI.h" />
+    <ClInclude Include="WhoStart.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

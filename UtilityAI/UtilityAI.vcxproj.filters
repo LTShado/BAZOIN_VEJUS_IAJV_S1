@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Attack">
+      <UniqueIdentifier>{4870dc5b-f3f4-4555-bf6c-c6fafbf423d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defense">
+      <UniqueIdentifier>{dbf2108b-2428-412b-8aa2-431cd4dae99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AttackSpe">
+      <UniqueIdentifier>{30323d80-dd2b-4358-b116-c19ee58db57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buff">
+      <UniqueIdentifier>{0b92502f-e559-46d5-b68e-69f9ef44ff4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debuff">
+      <UniqueIdentifier>{e187f49b-361a-40ed-9222-c595c00a8314}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UtilityAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Turn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhoStart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeaderActions.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackSpe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Defense.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackSpeEffect.hpp">
+      <Filter>Header Files\AttackSpe</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffEffect.hpp">
+      <Filter>Header Files\Buff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Rules.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Requirement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.hpp">
+      <Filter>Header Files\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackEffect.hpp">
+      <Filter>Header Files\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackRequirement.hpp">
+      <Filter>Header Files\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSpe.hpp">
+      <Filter>Header Files\AttackSpe</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSpeRequirement.hpp">
+      <Filter>Header Files\AttackSpe</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff.hpp">
+      <Filter>Header Files\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffRequirement.hpp">
+      <Filter>Header Files\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Debuff.hpp">
+      <Filter>Header Files\Debuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuffRequirement.hpp">
+      <Filter>Header Files\Debuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Defense.hpp">
+      <Filter>Header Files\Defense</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenseRequirement.hpp">
+      <Filter>Header Files\Defense</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Turn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WhoStart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuffEffect.hpp">
+      <Filter>Header Files\Debuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenseEffect.hpp">
+      <Filter>Header Files\Defense</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

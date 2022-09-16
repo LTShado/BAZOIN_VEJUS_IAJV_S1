@@ -1,0 +1,19 @@
+
+Simulation de Combat
+
+prerequis							action	           effet	       cout
+
+etre debout							s'accroupir      - s'accroupir	      2
+etre debout							sauter           - sauter	          2
+etre debout	+ vie du torse > 0		Attaque CaC	     - tapper	          3
+En l'air + vie de la tete > 0		Attaque aérienne - tapper	          4
+etre accroupi + vie des jambes > 0	Attaque accroupi - tapper             4
+etre en l'air						redescendre      -                    1
+etre accroupi						relever          -                    1
+3 tapper + etre debout 
++ vie du torse > 0					coup special	 - tapper			  6
+
+
+Si tu est accroupi, pas de degat au ennemis aerien
+Si tu saute, pas de degat au ennemis accroupi
+tapper fait revenir a la position debout

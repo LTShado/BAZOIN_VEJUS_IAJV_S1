@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{52b8fc12-293d-4818-bb72-f2310015b87b}</ProjectGuid>
-    <RootNamespace>BAZOINVEJUSIAJVS1GOAP</RootNamespace>
+    <ProjectGuid>{0f8718ec-c0cf-4fb4-af93-aa0f143ec39d}</ProjectGuid>
+    <RootNamespace>LecomteIACpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GOAP</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +140,56 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BAZOIN_VEJUS_IAJV_S1_GOAP.cpp" />
+    <ClCompile Include="ATaper3Foix.cpp" />
+    <ClCompile Include="AttaqueAerienne.cpp" />
+    <ClCompile Include="AttaqueBaisser.cpp" />
+    <ClCompile Include="AttaquerDebout.cpp" />
+    <ClCompile Include="Baisser.cpp" />
+    <ClCompile Include="coupSpecial.cpp" />
+    <ClCompile Include="EtreAccroupi.cpp" />
+    <ClCompile Include="EtreDebout.cpp" />
+    <ClCompile Include="EtreEnLair.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="LecomteIACpp.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="prerequis.cpp" />
+    <ClCompile Include="redescendre.cpp" />
+    <ClCompile Include="relever.cpp" />
+    <ClCompile Include="Sauter.cpp" />
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="VieDeLaTete.cpp" />
+    <ClCompile Include="VieDesJambes.cpp" />
+    <ClCompile Include="VieDuTorse.cpp" />
+    <ClCompile Include="VieManequin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Rules.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="ATaper3Foix.h" />
+    <ClInclude Include="AttaqueAerienne.h" />
+    <ClInclude Include="AttaqueBaisser.h" />
+    <ClInclude Include="AttaquerDebout.h" />
+    <ClInclude Include="Baisser.h" />
+    <ClInclude Include="coupSpecial.h" />
+    <ClInclude Include="EtreAccroupi.h" />
+    <ClInclude Include="EtreDebout.h" />
+    <ClInclude Include="EtreEnLair.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="prerequis.h" />
+    <ClInclude Include="redescendre.h" />
+    <ClInclude Include="relever.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Sauter.h" />
+    <ClInclude Include="VieDeLaTete.h" />
+    <ClInclude Include="VieDesJambes.h" />
+    <ClInclude Include="VieDuTorse.h" />
+    <ClInclude Include="VieManequin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LecomteIACpp.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

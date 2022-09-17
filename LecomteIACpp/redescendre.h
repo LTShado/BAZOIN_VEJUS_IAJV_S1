@@ -3,6 +3,10 @@
 #define REDESCENDRE_H
 
 #include "Action.h"
+
+class GameManager; 
+class effetRepasserDebout ;
+
 class Redescendre : public Action
 {
 public :

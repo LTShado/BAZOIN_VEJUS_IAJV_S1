@@ -1,4 +1,7 @@
 #include "Baisser.h"
+#include "GameManager.h"
+#include "EffetSaccroupir.h"
+
 using namespace std;
 
 void Baisser::Act()  {

@@ -1,8 +1,11 @@
 #pragma once
 #ifndef ATTAQUEBAISSER_H
 #define ATTAQUEBAISSER_H
+
 #include "Action.h"
 
+class GameManager;
+class BaisserVieJambe;
 
 class AttaqueBaisser : public Action
 {

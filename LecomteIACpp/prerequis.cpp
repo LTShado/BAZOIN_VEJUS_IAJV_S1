@@ -1,6 +1,3 @@
 #include "prerequis.h"
+#include "GameManager.h"
 
-
-bool prerequis::Require() {
-	return true;
-}

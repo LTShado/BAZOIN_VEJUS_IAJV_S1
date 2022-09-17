@@ -1,5 +1,6 @@
 #include "Action.h"
 #include "prerequis.h"
+
 bool Action::Can() {
 	bool state = true;
 	for (prerequis* var : this->requirements){

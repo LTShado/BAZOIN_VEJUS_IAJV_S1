@@ -1,9 +1,11 @@
 #pragma once
 #ifndef EFFETREPASSERDEBOUT_H
 #define EFFETREPASSERDEBOUT_H
+
 #include "effet.h"
-#include "VieManequin.h"
-#include "GameManager.h"
+
+class GameManager;
+
 class effetRepasserDebout : public effet
 {
 public :

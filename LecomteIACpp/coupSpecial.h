@@ -2,8 +2,11 @@
 #ifndef COUPSPECIAL_H
 #define COUPSPECIAL_H
 
-
 #include "Action.h"
+
+class GameManager;
+class BaisserVieTorse;
+
 class CoupSpecial : public Action
 {
 public :

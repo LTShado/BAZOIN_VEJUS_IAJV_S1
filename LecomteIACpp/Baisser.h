@@ -2,8 +2,11 @@
 #ifndef BAISSER_H
 #define BAISSER_H
 
-
 #include "Action.h"
+
+class GameManager;
+class EffetSaccroupir;
+
 class Baisser : public Action
 {
 public:

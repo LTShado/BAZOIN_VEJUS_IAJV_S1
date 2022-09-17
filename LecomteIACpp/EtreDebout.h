@@ -3,6 +3,7 @@
 #define ETREDEBOUT_H
 
 #include "prerequis.h"
+
 class GameManager;
 
 class EtreDebout : public prerequis

@@ -5,7 +5,8 @@
 #include <time.h>
 #include <random>
 #include "GameManager.h"
-#include "ReverseAstar.h"
+
+
 using namespace std;
 
 int main()

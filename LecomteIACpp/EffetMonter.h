@@ -1,9 +1,11 @@
 #pragma once
 #ifndef EFFETMONTER_H
 #define EFFETMONTER_H
+
 #include "effet.h"
-#include "VieManequin.h"
-#include "GameManager.h"
+
+class GameManager;
+
 class EffetMonter : public effet
 {
 public :

@@ -1,4 +1,7 @@
 #include "Sauter.h"
+#include "GameManager.h"
+#include "EffetMonter.h"
+
 using namespace std;
 
  void Sauter::Act() {

@@ -2,9 +2,10 @@
 #ifndef VIEDESJAMBES_H
 #define VIEDESJAMBES_H
 
-
 #include "prerequis.h"
+
 class GameManager;
+
 class VieDesJambes : public prerequis
 {
 public :

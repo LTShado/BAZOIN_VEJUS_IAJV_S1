@@ -2,6 +2,9 @@
 #include "GameManager.h"
 #include "Player.h"
 #include "Action.h"
+
+
+
 using namespace std;
 
 //On initialise la liste OpenNode ainsi que la liste des preconditions non remplis pour le premier coups 
@@ -38,6 +41,7 @@ void ReverseAstar::startSimu() {
 		// on check noeud par noeud les actions et preconditions
 		for (int i = 0; i < GoapActions.size(); i++) {
 			coutleplusfaible = GoapActions[i];
+			//si l'action a tout les prerequis de complet on l'ajoute a la liste des actions qui sera effectuer
 			if (coutleplusfaible->Can() == true) {
 				SimuActions.push_back(coutleplusfaible);
 				if (coutleplusfaible->getEffect()->ValidateEffect(gm->getManequin())) {
@@ -53,53 +57,3 @@ void ReverseAstar::startSimu() {
 	
 }
 
-
-
-
-
-
-effet* ReverseAstar::checkPrecondition(prerequis* p) {
-	switch (p->id)
-	{
-		//si precondition = Atapper3foix on renvoie l'effet baisser vie torse
-	case 0:
-		BaisserVieTorse * bvt = new BaisserVieTorse();
-		return bvt;
-		break;
-		//si precondition = etreaccroupi on renvoie l'effet s'accroupir
-	case 1:
-		EffetSaccroupir * es = new EffetSaccroupir();
-		return es;
-		break;
-		//si precondition = etreDebout on renvoie l'effet repasserDebout
-	case 2:
-		effetRepasserDebout * erd = new effetRepasserDebout();
-		return erd;
-		break;
-		//si precondition = etre en l'air on renvoie l'effet monter
-	case 3:
-		EffetMonter * em = new EffetMonter();
-		return em;
-		break;
-		//si precondition = vie de la tete on renvoie l'effet basser vie tete
-	case 4:
-		BaisserVieTete * baisservietete = new BaisserVieTete();
-		return baisservietete;
-		break;
-		//si precondition = vie des jambes on renvoie l'effet basser vie jambes
-	case 5:
-		BaisserVieJambe * baisserviejambe = new BaisserVieJambe();
-		return baisserviejambe;
-		break;
-		//si precondition = vie du torse on renvoie l'effet basser vie torse
-	case 6:
-		BaisserVieTorse * baisservietorse = new BaisserVieTorse();
-		return baisservietorse;
-		break;
-
-
-	default:
-		cout << "erreur Check precondition" << endl;
-		break;
-	}
-}

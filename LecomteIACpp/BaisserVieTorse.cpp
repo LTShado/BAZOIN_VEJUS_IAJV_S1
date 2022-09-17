@@ -1,4 +1,5 @@
 #include "BaisserVieTorse.h"
+#include "GameManager.h"
 
 void BaisserVieTorse::activateEffect(VieManequin* mannequin) {
 	mannequin->VieTorse -= 12;

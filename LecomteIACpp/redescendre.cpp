@@ -1,4 +1,6 @@
 #include "redescendre.h"
+#include "GameManager.h"
+#include "effetRepasserDebout.h"
 
 using namespace std;
 

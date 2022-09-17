@@ -2,21 +2,34 @@
 
 #ifndef GAMEMANAGER_H
 #define GAMEMANAGER_H
-#include "Player.h"
-#include "EtreDebout.h"
-#include "EtreAccroupi.h"
-#include "EtreEnLair.h"
-#include "ATaper3Foix.h"
-#include "VieDeLaTete.h"
-#include "VieDesJambes.h"
-#include "VieDuTorse.h"
-#include "EffetMonter.h"
-#include "effetRepasserDebout.h"
-#include "EffetSaccroupir.h"
-#include "BaisserVieJambe.h"
-#include "BaisserVieTete.h"
-#include "BaisserVieTorse.h"
 
+#include "VieManequin.h"
+#include "Player.h"
+#include "ReverseAstar.h"
+//class action
+class AttaqueAerienne;
+class AttaqueBaisser;
+class AttaquerDebout;
+class Baisser;
+class coupSpecial;
+class redescendre;
+class relever;
+class Sauter;
+//class effet
+class BaisserVieJambe;
+class BaisserVieTete;
+class BaisserVieTorse;
+class EffetMonter;
+class effetRepasserDebout;
+class EffetSaccroupir;
+//class prerequis
+class ATaper3Foix;
+class EtreAccroupi;
+class EtreDebout;
+class EtreEnLair;
+class VieDeLaTete;
+class VieDesJambes;
+class VieDuTorse;
 
 
 // POSITION DU JOUEUR

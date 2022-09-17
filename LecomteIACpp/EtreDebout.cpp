@@ -1,5 +1,6 @@
 #include "EtreDebout.h"
 #include "GameManager.h"
+
 bool EtreDebout::Require() {
 	GameManager* gm;
 	state tmp = gm->getInstance()->getState();

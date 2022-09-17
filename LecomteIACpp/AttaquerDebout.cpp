@@ -1,4 +1,7 @@
 #include "AttaquerDebout.h"
+#include "GameManager.h"
+#include "BaisserVieTorse.h"
+
 using namespace std;
 
 void AttaquerDebout::Act()  {

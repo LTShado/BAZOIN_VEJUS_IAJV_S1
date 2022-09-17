@@ -3,8 +3,8 @@
 #define EFFETSACCROUPIR_H
 
 #include "effet.h"
-#include "VieManequin.h"
-#include "GameManager.h"
+
+class GameManager;
 
 class EffetSaccroupir : public effet
 {

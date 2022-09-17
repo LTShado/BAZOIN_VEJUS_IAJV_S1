@@ -1,8 +1,10 @@
 #pragma once
 #ifndef EFFETBAISSERTETE_H
 #define EFFETBAISSERTETE_H
+
 #include "effet.h"
-#include "GameManager.h"
+
+class GameManager;
 
 class BaisserVieTete : public effet
 {

@@ -1,12 +1,13 @@
 #include "AttaqueBaisser.h"
-#include "BaisserVieJambe.h"
 #include "GameManager.h"
+#include "BaisserVieJambe.h"
+
 using namespace std;
 
 void AttaqueBaisser::Act()  {
 	cout << "ATTAQUE BAISSER" << endl;
 	GameManager* gm = GameManager::getInstance();
-	BaisserVieTete tmp;
+	BaisserVieJambe tmp;
 	tmp.activateEffect(gm->getManequin());
 	
 }

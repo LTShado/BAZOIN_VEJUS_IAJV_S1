@@ -1,12 +1,10 @@
 #include "effet.h"
+#include "GameManager.h"
+#include "VieManequin.h"
 
-effet::effet(std::string s) {
-	this->name = s;
-}
 effet::effet() {
-
+	this->id = NULL;
 }
 
-void effet::activateEffect(VieManequin* mannequin) {
 
- }
+

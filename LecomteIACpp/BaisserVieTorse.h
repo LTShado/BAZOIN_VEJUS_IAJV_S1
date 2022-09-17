@@ -1,8 +1,11 @@
 #pragma once
 #ifndef BAISSERVIETORSE_H
 #define BAISSERVIETORSE_H
+
 #include "effet.h"
-#include "GameManager.h"
+
+class GameManager;
+
 class BaisserVieTorse : public effet
 {
 public :

@@ -4,6 +4,9 @@
 #define SAUTER_H
 #include "Action.h"
 
+class GameManager;
+class EffetMonter;
+
 class Sauter : public Action
 {
 public :

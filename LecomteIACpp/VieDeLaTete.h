@@ -2,9 +2,10 @@
 #ifndef VIEDELATETE_H
 #define VIEDELATETE_H
 
-
 #include "prerequis.h"
+
 class GameManager;
+
 class VieDeLaTete : public prerequis
 {
 public:

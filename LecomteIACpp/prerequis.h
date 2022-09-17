@@ -3,6 +3,8 @@
 
 #define PREREQUIS_H
 
+#include <iostream>
+
 class prerequis
 {
 public :

@@ -1,5 +1,6 @@
 #include "EtreAccroupi.h"
 #include "GameManager.h"
+
 EtreAccroupi::EtreAccroupi() {
 
 }

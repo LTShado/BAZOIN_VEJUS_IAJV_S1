@@ -1,4 +1,6 @@
 #include "AttaqueAerienne.h"
+#include "GameManager.h"
+#include "BaisserVieTete.h"
 
 using namespace std;
 

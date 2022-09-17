@@ -1,5 +1,33 @@
 #include "GameManager.h"
 
+//Include d'actions 
+#include "AttaqueAerienne.h"
+#include "AttaqueBaisser.h"
+#include "AttaquerDebout.h"
+#include "Baisser.h"
+#include "coupSpecial.h"
+#include "redescendre.h"
+#include "relever.h"
+#include "Sauter.h"
+
+//include d'effet
+#include "BaisserVieJambe.h"
+#include "BaisserVieTete.h"
+#include "BaisserVieTorse.h"
+#include "EffetMonter.h"
+#include "effetRepasserDebout.h"
+#include "EffetSaccroupir.h"
+
+//include de prerequis
+#include "ATaper3Foix.h"
+#include "EtreAccroupi.h"
+#include "EtreDebout.h"
+#include "EtreEnLair.h"
+#include "VieDeLaTete.h"
+#include "VieDesJambes.h"
+#include "VieDuTorse.h"
+
+
 GameManager* GameManager::instance = 0;
 
 GameManager::GameManager() {

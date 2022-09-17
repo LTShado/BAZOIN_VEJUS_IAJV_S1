@@ -3,6 +3,7 @@
 #define VIEDUTORSE_H
 
 #include "prerequis.h"
+
 class GameManager;
 
 class VieDuTorse : public prerequis

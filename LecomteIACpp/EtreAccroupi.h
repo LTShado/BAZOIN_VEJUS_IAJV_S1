@@ -2,9 +2,10 @@
 #ifndef ETREACCROUPI_H
 #define ETREACCROUPI_H
 
-
 #include "prerequis.h"
+
 class GameManager;
+
 class EtreAccroupi: public prerequis
 {
 public:

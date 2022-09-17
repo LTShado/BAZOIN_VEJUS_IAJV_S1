@@ -3,6 +3,7 @@
 #define ETREENLAIR_H
 
 #include "prerequis.h"
+
 class GameManager;
 
 class EtreEnLair : public prerequis

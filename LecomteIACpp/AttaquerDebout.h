@@ -2,8 +2,12 @@
 #ifndef ATTAQUERDEBOUT_H
 #define ATTAQUERDEBOUT_H
 
-
 #include "Action.h"
+
+class GameManager;
+class BaisserVieTorse;
+
+
 class AttaquerDebout : public Action
 {
 public :

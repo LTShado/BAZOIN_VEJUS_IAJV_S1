@@ -2,8 +2,10 @@
 #ifndef ATTAQUEAERIENNE_H
 #define ATTAQUEAERIENNE_H
 
-
 #include "Action.h"
+
+class GameManager;
+class BaisserVieTete;
 
 class AttaqueAerienne : public Action
 {
@@ -12,7 +14,7 @@ private :
 
 public:
 	int cost = 4;
-	AttaqueAerienne();
+	AttaqueAerienne() {};
 
 };
 

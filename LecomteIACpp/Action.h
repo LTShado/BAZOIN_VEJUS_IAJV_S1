@@ -1,8 +1,13 @@
 #pragma once
-#include <iostream>
 
+#ifndef ACTION_H
+#define ACTION_H
+
+#include <iostream>
+#include "GameManager.h"
 #include <vector>
-#include "VieManequin.h"
+
+class effet;
 class prerequis;
 
 class Action
@@ -10,16 +15,20 @@ class Action
 private :
 	int cost;
 	std::vector<prerequis*> requirements;
+	std::vector<effet*> effects;
 
 public:
-	virtual void Act(VieManequin*);
+	virtual void Act();
 	bool Can();
 
-	void SetCost(int c) { this->cost = c; };
-	int GetCost()const { return this->cost; };
+	virtual void SetCost(int c) { this->cost = c; };
+	virtual int GetCost()const { return this->cost; };
 
 	void AddRequirements(prerequis* r);
-
+	void AddEffect(effet* e);
+	effet* getEffect();
+	std::vector<prerequis*> GetRequirement();
 	
 };
 
+#endif // !ACTION_H

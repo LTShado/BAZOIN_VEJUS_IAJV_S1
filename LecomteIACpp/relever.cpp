@@ -1,9 +1,11 @@
 #include "relever.h"
 using namespace std;
 
-void Relever::Act(VieManequin* mannequin) {
+void Relever::Act() {
 	cout << "SE RELEVE " << endl;
-	mannequin->printVie();
+	GameManager* gm = GameManager::getInstance();
+	effetRepasserDebout tmp;
+	tmp.activateEffect(gm->getManequin());
 }
 
 Relever::Relever() {

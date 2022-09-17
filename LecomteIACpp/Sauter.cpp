@@ -1,9 +1,11 @@
 #include "Sauter.h"
 using namespace std;
 
- void Sauter::Act(VieManequin *mannequin) {
+ void Sauter::Act() {
 	 cout << "SAUTE " << endl;
-	 mannequin->printVie();
+	 GameManager* gm = GameManager::getInstance();
+	 EffetMonter tmp;
+	 tmp.activateEffect(gm->getManequin());
 }
  Sauter::Sauter() {
 

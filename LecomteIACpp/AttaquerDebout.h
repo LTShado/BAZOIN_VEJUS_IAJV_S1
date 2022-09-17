@@ -1,9 +1,15 @@
 #pragma once
+#ifndef ATTAQUERDEBOUT_H
+#define ATTAQUERDEBOUT_H
+
+
 #include "Action.h"
 class AttaquerDebout : public Action
 {
 public :
-	void Act(VieManequin*) override;
+	int cost = 3;
+	void Act() override;
 	AttaquerDebout();
 };
 
+#endif // !ATTAQUERDEBOUT_H

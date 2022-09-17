@@ -1,9 +1,12 @@
 #include "redescendre.h"
+
 using namespace std;
 
-void Redescendre::Act(VieManequin* mannequin) {
+void Redescendre::Act() {
 	cout << "REDESCENDRE " << endl;
-	mannequin->printVie();
+	GameManager* gm = GameManager::getInstance();
+	effetRepasserDebout tmp;
+	tmp.activateEffect(gm->getManequin());
 }
 Redescendre::Redescendre() {
 

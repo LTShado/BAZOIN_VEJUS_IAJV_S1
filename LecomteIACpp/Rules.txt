@@ -5,7 +5,7 @@ prerequis							action	           effet	       cout
 
 etre debout							s'accroupir      - s'accroupir	      2
 etre debout							sauter           - sauter	          2
-etre debout	+ vie du torse > 0		Attaque CaC	     - tapper	          3
+etre debout	+ vie du torse > 0		Attaque debout	 - tapper	          3
 En l'air + vie de la tete > 0		Attaque aérienne - tapper	          4
 etre accroupi + vie des jambes > 0	Attaque accroupi - tapper             4
 etre en l'air						redescendre      -                    1

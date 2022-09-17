@@ -22,9 +22,8 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{0f8718ec-c0cf-4fb4-af93-aa0f143ec39d}</ProjectGuid>
-    <RootNamespace>GOAP</RootNamespace>
+    <RootNamespace>LecomteIACpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>GOAP</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -117,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,6 +131,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,7 +146,14 @@
     <ClCompile Include="AttaqueBaisser.cpp" />
     <ClCompile Include="AttaquerDebout.cpp" />
     <ClCompile Include="Baisser.cpp" />
+    <ClCompile Include="BaisserVieJambe.cpp" />
+    <ClCompile Include="BaisserVieTete.cpp" />
+    <ClCompile Include="BaisserVieTorse.cpp" />
     <ClCompile Include="coupSpecial.cpp" />
+    <ClCompile Include="effet.cpp" />
+    <ClCompile Include="EffetMonter.cpp" />
+    <ClCompile Include="effetRepasserDebout.cpp" />
+    <ClCompile Include="EffetSaccroupir.cpp" />
     <ClCompile Include="EtreAccroupi.cpp" />
     <ClCompile Include="EtreDebout.cpp" />
     <ClCompile Include="EtreEnLair.cpp" />
@@ -155,6 +163,7 @@
     <ClCompile Include="prerequis.cpp" />
     <ClCompile Include="redescendre.cpp" />
     <ClCompile Include="relever.cpp" />
+    <ClCompile Include="ReverseAstar.cpp" />
     <ClCompile Include="Sauter.cpp" />
     <ClCompile Include="Action.cpp" />
     <ClCompile Include="VieDeLaTete.cpp" />
@@ -172,7 +181,14 @@
     <ClInclude Include="AttaqueBaisser.h" />
     <ClInclude Include="AttaquerDebout.h" />
     <ClInclude Include="Baisser.h" />
+    <ClInclude Include="BaisserVieJambe.h" />
+    <ClInclude Include="BaisserVieTete.h" />
+    <ClInclude Include="BaisserVieTorse.h" />
     <ClInclude Include="coupSpecial.h" />
+    <ClInclude Include="effet.h" />
+    <ClInclude Include="EffetMonter.h" />
+    <ClInclude Include="effetRepasserDebout.h" />
+    <ClInclude Include="EffetSaccroupir.h" />
     <ClInclude Include="EtreAccroupi.h" />
     <ClInclude Include="EtreDebout.h" />
     <ClInclude Include="EtreEnLair.h" />
@@ -182,6 +198,7 @@
     <ClInclude Include="redescendre.h" />
     <ClInclude Include="relever.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="ReverseAstar.h" />
     <ClInclude Include="Sauter.h" />
     <ClInclude Include="VieDeLaTete.h" />
     <ClInclude Include="VieDesJambes.h" />

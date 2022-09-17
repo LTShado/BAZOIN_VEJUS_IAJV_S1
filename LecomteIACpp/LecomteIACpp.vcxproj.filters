@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Prerequi">
       <UniqueIdentifier>{a61211f2-f177-434f-8705-7440e74255e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\effet">
+      <UniqueIdentifier>{69575998-2e02-49e3-a63b-b2defa033e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effet">
+      <UniqueIdentifier>{1c4fafe3-e8a5-4f93-b75d-bba7ef54f87c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LecomteIACpp.cpp">
@@ -89,6 +95,30 @@
     </ClCompile>
     <ClCompile Include="VieManequin.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseAstar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effet.cpp">
+      <Filter>Source Files\effet</Filter>
+    </ClCompile>
+    <ClCompile Include="BaisserVieTete.cpp">
+      <Filter>Source Files\effet</Filter>
+    </ClCompile>
+    <ClCompile Include="BaisserVieTorse.cpp">
+      <Filter>Source Files\effet</Filter>
+    </ClCompile>
+    <ClCompile Include="BaisserVieJambe.cpp">
+      <Filter>Source Files\effet</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetSaccroupir.cpp">
+      <Filter>Source Files\effet</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetMonter.cpp">
+      <Filter>Source Files\effet</Filter>
+    </ClCompile>
+    <ClCompile Include="effetRepasserDebout.cpp">
+      <Filter>Source Files\effet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +189,30 @@
     </ClInclude>
     <ClInclude Include="VieManequin.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseAstar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="effet.h">
+      <Filter>Header Files\effet</Filter>
+    </ClInclude>
+    <ClInclude Include="BaisserVieTete.h">
+      <Filter>Header Files\effet</Filter>
+    </ClInclude>
+    <ClInclude Include="BaisserVieTorse.h">
+      <Filter>Header Files\effet</Filter>
+    </ClInclude>
+    <ClInclude Include="BaisserVieJambe.h">
+      <Filter>Header Files\effet</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetSaccroupir.h">
+      <Filter>Header Files\effet</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetMonter.h">
+      <Filter>Header Files\effet</Filter>
+    </ClInclude>
+    <ClInclude Include="effetRepasserDebout.h">
+      <Filter>Header Files\effet</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

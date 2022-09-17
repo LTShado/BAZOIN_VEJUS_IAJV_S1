@@ -1,9 +1,14 @@
 #pragma once
+#ifndef REDESCENDRE_H
+#define REDESCENDRE_H
+
 #include "Action.h"
 class Redescendre : public Action
 {
 public :
-	void Act(VieManequin*) override;
+	int cost = 1;
+	void Act() override;
 	Redescendre();
 };
 
+#endif // !REDESCENDRE_H

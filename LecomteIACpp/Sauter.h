@@ -1,9 +1,15 @@
 #pragma once
+#ifndef SAUTER_H
+
+#define SAUTER_H
 #include "Action.h"
+
 class Sauter : public Action
 {
 public :
-	void Act(VieManequin*) override;
+	int cost = 2;
+	void Act() override;
 	Sauter();
 };
 
+#endif // !SAUTER_H

@@ -5,27 +5,18 @@
 #include <time.h>
 #include <random>
 #include "GameManager.h"
-#include "VieManequin.h"
-
+#include "ReverseAstar.h"
 using namespace std;
 
 int main()
 {
     int CounterTurn = 0;
-    GameManager gm;
-    VieManequin manequin;
-    Player player = gm.GetPlayer();
+    GameManager* gm = GameManager::getInstance();
+    Player player = gm->GetPlayer();
     int nbAction = player.NbAction();
+    ReverseAstar goap = ReverseAstar();
+    
+    
 
-    while (CounterTurn <10) {
-        
-        int randomAttaque = rand() % 7; 
-        
-        player.currentAction = player.getAction(randomAttaque);
 
-        player.currentAction->Act(&manequin);
-        
-        
-        CounterTurn++;
-    }
 }

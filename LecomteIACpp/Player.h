@@ -1,5 +1,7 @@
 #pragma once
-#include "Action.h"
+#ifndef PLAYER_H
+#define PLAYER_H
+
 
 #include "AttaqueAerienne.h"
 #include "AttaqueBaisser.h"
@@ -11,7 +13,7 @@
 #include "coupSpecial.h"
 #include <vector>
 #include "prerequis.h"
-
+class Action;
 class Player
 {
 private :
@@ -23,7 +25,10 @@ public:
 	Action* lastAction;
 	Player();
 	int NbAction();
-	void AddAction(Action* act) { actions.push_back(act); };
+	void AddAction(Action* action) { actions.push_back(action); };
 	Action* getAction(int index);
+	std::vector<Action*> GetActionsCopy();
 
 };
+
+#endif // !PLAYER_H

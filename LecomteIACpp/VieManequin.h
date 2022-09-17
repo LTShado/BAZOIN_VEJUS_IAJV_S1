@@ -1,4 +1,9 @@
 #pragma once
+#ifndef VIEMANEQUIN_H
+
+#define VIEMANEQUIN_H
+
+
 class VieManequin
 {
 public :
@@ -9,3 +14,4 @@ public :
 	void printVie();
 };
 
+#endif // !VIEMANEQUIN_H
